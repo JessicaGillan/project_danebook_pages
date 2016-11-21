@@ -1,80 +1,45 @@
-$bgDefault      : #317be2;
-$bgHighlight    : #2660b0;
-$colDefault     : #f5fafb;
-$colHighlight   : #c7dcf9;
-$dropDown       : false;
 
-.navbar-default {
-  background-color: $bgDefault;
-  border-color: $bgHighlight;
+// Bootstrap Colors
+$brand-primary: #317be2;
 
-  .navbar-brand {
-    color: $colDefault;
-    &:hover, &:focus {
-      color: $colHighlight; }}
-  .navbar-text {
-    color: $colDefault; }
-  .navbar-nav {
-    > li {
-      > a {
-        color: $colDefault;
-        &:hover,  &:focus {
-          color: $colHighlight; }}
-      @if $dropDown {
-        > .dropdown-menu {
-          background-color: $bgDefault;
-          > li {
-            > a {
-              color: $colDefault;
-              &:hover,  &:focus {
-                color: $colHighlight;
-                background-color: $bgHighlight; }}
-            > .divider {
-              background-color: $bgHighlight;}}}}}
-    @if $dropDown {
-      .open .dropdown-menu > .active {
-        > a, > a:hover, > a:focus {
-          color: $colHighlight;
-          background-color: $bgHighlight; }}}
-    > .active {
-      > a, > a:hover, > a:focus {
-        color: $colHighlight;
-        background-color: $bgHighlight; }}
-    > .open {
-      > a, > a:hover, > a:focus {
-        color: $colHighlight;
-        background-color: $bgHighlight; }}}
-  .navbar-toggle {
-    border-color: $bgHighlight;
-    &:hover, &:focus {
-      background-color: $bgHighlight; }
-    .icon-bar {
-      background-color: $colDefault; }}
-  .navbar-collapse,
-  .navbar-form {
-    border-color: $colDefault;
-    overflow: auto;
+a{
+  color: #555;
+  font-size: 1.25em;
+}
 
-    .form-control {
-       display: inline-block;
-       width: 100%;
-       vertical-align: middle;
-   }
-   .form-group {
-       display: inline;
-   }}
-  .navbar-link {
-    color: $colDefault;
-    &:hover {
-      color: $colHighlight; }}}
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu {
-    > li > a {
-      color: $colDefault;
-      &:hover, &:focus {
-        color: $colHighlight; }}
-    > .active {
-      > a, > a:hover, > a:focus {
-        color: $colHighlight;
-        background-color: $bgHighlight; }}}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: $brand-primary;
+    border-color: #8064A2;
+}
+
+#top-nav{
+  background-color: $brand-primary;
+  border-color: #2660b0;
+  margin-bottom: 0;
+  a{
+    color: #FFF;
+    font-size: 1.25em;
+  }
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-image: url(../assets/hogwarts_small.jpg);
+  background-position: 0% 65%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about-container{
+  margin: 0 61.5px;
+}
+#jumbotron-nav{
+  padding-right: 15px;
+  .navbar-right a{
+    text-decoration: underline;
+  }
 }

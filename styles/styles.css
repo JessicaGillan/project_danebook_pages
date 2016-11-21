@@ -1,52 +1,36 @@
-.navbar-default {
-  background-color: #317be2;
-  border-color: #2660b0; }
-  .navbar-default .navbar-brand {
-    color: #f5fafb; }
-    .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-      color: #c7dcf9; }
-  .navbar-default .navbar-text {
-    color: #f5fafb; }
-  .navbar-default .navbar-nav > li > a {
-    color: #f5fafb; }
-    .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-      color: #c7dcf9; }
-  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #c7dcf9;
-    background-color: #2660b0; }
-  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color: #c7dcf9;
-    background-color: #2660b0; }
-  .navbar-default .navbar-toggle {
-    border-color: #2660b0; }
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-      background-color: #2660b0; }
-    .navbar-default .navbar-toggle .icon-bar {
-      background-color: #f5fafb; }
-  .navbar-default .navbar-collapse,
-  .navbar-default .navbar-form {
-    border-color: #f5fafb;
-    overflow: auto; }
-    .navbar-default .navbar-collapse .form-control,
-    .navbar-default .navbar-form .form-control {
-      display: inline-block;
-      width: 100%;
-      vertical-align: middle; }
-    .navbar-default .navbar-collapse .form-group,
-    .navbar-default .navbar-form .form-group {
-      display: inline; }
-  .navbar-default .navbar-link {
-    color: #f5fafb; }
-    .navbar-default .navbar-link:hover {
-      color: #c7dcf9; }
+a {
+  color: #555;
+  font-size: 1.25em; }
 
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #f5fafb; }
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-      color: #c7dcf9; }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #c7dcf9;
-    background-color: #2660b0; } }
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #317be2;
+  border-color: #8064A2; }
+
+#top-nav {
+  background-color: #317be2;
+  border-color: #2660b0;
+  margin-bottom: 0; }
+  #top-nav a {
+    color: #FFF;
+    font-size: 1.25em; }
+
+.jumbotron {
+  margin-bottom: 0;
+  background-image: url(../assets/hogwarts_small.jpg);
+  background-position: 0% 65%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#about-container {
+  margin: 0 61.5px; }
+
+#jumbotron-nav {
+  padding-right: 15px; }
+  #jumbotron-nav .navbar-right a {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=styles.css.map */

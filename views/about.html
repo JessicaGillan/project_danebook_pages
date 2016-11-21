@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Welcome to Danebook</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Welcome to Danebook</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="../styles/styles.css">
+  <!-- My CSS -->
+  <link rel="stylesheet" href="../styles/styles.css">
 
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <nav id="top-nav" class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
@@ -35,26 +36,57 @@
         <a href="/home"><img class="navbar-brand img-circle" alt="Danish Flag" src="../assets/danish_flag.gif"></a>
         <a class="navbar-brand" href="#">Danebook</a>
       </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <form class="navbar-form navbar-left " role="search">
-            <div class="form-group">
-              <div class="input-group">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <div class="input-group">
               <input type="text" class="form-control" placeholder="Search for Users" autofocus="autofocus">
             </div>
-            </div>
-          </form>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Hermoine</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-  </body>
+          </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Hermoine</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-  <!-- jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+  <section class="container">
+    <div class="jumbotron row">
+    </div>
+    <div class="row">
+      <nav id="jumbotron-nav" class="navbar navbar-default">
+          <ul class="nav navbar-nav navbar-left">
+            <img class="profile-photo" alt="Profile Photo" src="../assets/user_silhouette_generic.gif">
+          </ul>
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="#">Timeline</a></li>
+            <li class="active"><a href="#">About</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Friends</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Edit Profile</a></li>
+          </ul>
+      </nav>
+    </div>
+  </section>
+
+  <main>
+    <section id="about-container">
+      <header>
+        <h1>About</h1>
+        <button type="button" class="btn btn-primary">Primary</button>
+      </header>
+      <div class="container">
+      </div>
+    </section>
+  </main>
+</body>
+
+<!-- jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </html>
