@@ -44,3 +44,15 @@ a{
     text-decoration: underline;
   }
 }
+
+#content {
+  h3, h4 {
+    text-align:center;
+  }
+  .titles {
+    font-weight: bold;
+  }
+  ul {
+    list-style: none;
+  }
+}
