@@ -46,7 +46,18 @@ a{
 }
 
 #content {
-  h3, h4 {
+  .panel-heading{
+    text-align:center;
+  }
+  button {
+    position: relative;
+    left: 315px;
+  }
+  h3 {
+    font-size: 1.25em;
+    display: inline-block;
+  }
+  h4 {
     text-align:center;
   }
   .titles {

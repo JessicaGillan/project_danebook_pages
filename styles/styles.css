@@ -33,7 +33,15 @@ a {
 #profile-banner .navbar-right a {
   text-decoration: underline; }
 
-#content h3, #content h4 {
+#content .panel-heading {
+  text-align: center; }
+#content button {
+  position: relative;
+  left: 315px; }
+#content h3 {
+  font-size: 1.25em;
+  display: inline-block; }
+#content h4 {
   text-align: center; }
 #content .titles {
   font-weight: bold; }
