@@ -13,13 +13,6 @@
   <!-- My CSS -->
   <link rel="stylesheet" href="../styles/styles.css">
 
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 
@@ -52,36 +45,37 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-  <section class="container">
-    <div class="jumbotron row">
-    </div>
-    <div class="row">
-      <nav id="jumbotron-nav" class="navbar navbar-default">
-          <ul class="nav navbar-nav navbar-left">
-            <img class="profile-photo" alt="Profile Photo" src="../assets/user_silhouette_generic.gif">
-          </ul>
-          <ul class="nav navbar-nav navbar-center">
-            <li><a href="#">Timeline</a></li>
-            <li class="active"><a href="#">About</a></li>
-            <li><a href="#">Photos</a></li>
-            <li><a href="#">Friends</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Edit Profile</a></li>
-          </ul>
-      </nav>
-    </div>
-  </section>
+  <main class="container-fluid">
+    <section id="profile-banner">
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="banner-wrapper">
+              <img src="../assets/quokka.png" alt="Profile Image"/>
+            </div>
+          </div>
+        </div>
 
-  <main>
-    <section id="about-container">
-      <header>
-        <h1>About</h1>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </header>
-      <div class="container">
-      </div>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <nav class="navbar navbar-default">
+              <div class="col-sm-6 col-sm-offset-3">
+                <ul class="nav navbar-nav ">
+                  <li><a href="#">Timeline</a></li>
+                  <li class="active"><a href="#">About</a></li>
+                  <li><a href="#">Photos</a></li>
+                  <li><a href="#">Friends</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-3">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Edit Profile</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
     </section>
+
   </main>
 </body>
 

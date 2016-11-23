@@ -26,19 +26,20 @@ a{
   }
 }
 
-.jumbotron {
-  margin-bottom: 0;
-  background-image: url(../assets/hogwarts_small.jpg);
-  background-position: 0% 65%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#about-container{
-  margin: 0 61.5px;
-}
-#jumbotron-nav{
-  padding-right: 15px;
+#profile-banner{
+  .banner-wrapper {
+    background-image: url(../assets/hogwarts_small.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 65%;
+    min-height: 350px;
+  img { height: 170px;
+          position: relative;;
+          left: 15px;
+          top: 215px;
+          z-index:1;
+        }
+  }
   .navbar-right a{
     text-decoration: underline;
   }
