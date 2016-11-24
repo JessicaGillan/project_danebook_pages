@@ -19,7 +19,7 @@ a {
     font-size: 1.25em; }
 
 #profile-banner .banner-wrapper {
-  background-image: url(../assets/hogwarts_small.jpg);
+  background-image: url(../assets/castle.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0% 65%;
@@ -35,7 +35,7 @@ a {
 
 #content .panel-heading {
   text-align: center; }
-#content button {
+#content #edit-profile {
   position: relative;
   left: 315px; }
 #content h3 {
@@ -54,6 +54,22 @@ a {
   font-size: 1.4em;
   margin-top: 30px;
   height: 80px;
-  width: 220px; }
+  width: 220px;
+  position: relative;
+  left: 40%; }
+#content article {
+  padding: 15px;
+  margin: 8px;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray; }
+  #content article div {
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 30px;
+    vertical-align: middle; }
+  #content article img {
+    height: 70px;
+    width: 70px; }
 
 /*# sourceMappingURL=styles.css.map */
