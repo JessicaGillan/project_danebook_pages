@@ -44,8 +44,16 @@ a {
 #content h4 {
   text-align: center; }
 #content .titles {
-  font-weight: bold; }
+  font-weight: bold;
+  line-height: 1.75; }
 #content ul {
   list-style: none; }
+#content textarea {
+  width: 100%; }
+#content #save_changes {
+  font-size: 1.4em;
+  margin-top: 30px;
+  height: 80px;
+  width: 220px; }
 
 /*# sourceMappingURL=styles.css.map */
